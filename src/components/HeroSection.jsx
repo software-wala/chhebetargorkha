@@ -9,9 +9,7 @@ const HeroSection = () => {
         Construction
       </h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-        ligula eget dolor. Aenean massa cum sociis theme natoque penatibus etec
-        magnis dis parturient montes.
+      Transforming visions into reality through expert craftsmanship and uncompromising quality. We build sustainable structures for a brighter future, together with our clients.
       </p>
       <button className="read-more-btn">Read More</button>
       <button className="contact-us-btn">Contact Us</button>

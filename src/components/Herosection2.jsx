@@ -6,9 +6,7 @@ const HeroSection2 = () => {
     <section className="hero">
       <h1>We Are Building Everything</h1>
       <p>
-        All of this text is editable. Simply click anywhere in the paragraph or
-        heading text and start typing. You can copy and paste your own content
-        in to see what it looks like.
+      With expert craftsmanship and unwavering commitment to quality, we transform your vision into reality. Building a brighter future, together, through sustainable and innovative construction.
       </p>
       <a href="#" className="read-more-btn">
         Read More
