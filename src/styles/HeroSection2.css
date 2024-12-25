@@ -1,0 +1,75 @@
+.hero {
+  text-align: center;
+  padding: 120px 20px; /* Added padding for better spacing */
+  background: linear-gradient(to bottom right, #007bff, #0056b3); /* Stylish gradient background */
+  color: #fff; /* White text for better contrast */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 3.5rem; /* Larger font for headline */
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+.hero p {
+  font-size: 1.2rem; /* Enhanced font size for better readability */
+  line-height: 1.6; /* Added line spacing */
+  max-width: 800px; /* Limit width for readability */
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow for readability */
+}
+
+.read-more-btn {
+  background-color: #ffcc00; /* Eye-catching button color */
+  color: #000; /* Contrasting text color */
+  padding: 12px 30px; /* Larger button size */
+  font-size: 1.1rem; /* Enhanced font size */
+  font-weight: bold; /* Bold text for prominence */
+  border: none;
+  border-radius: 50px; /* Rounded button style */
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add depth to the button */
+  transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+.read-more-btn:hover {
+  background-color: #ffaa00; /* Slightly darker color on hover */
+  transform: scale(1.1); /* Slight zoom effect */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem; /* Adjust headline size for smaller screens */
+  }
+
+  .hero p {
+    font-size: 1rem; /* Adjust paragraph size for smaller screens */
+  }
+
+  .read-more-btn {
+    padding: 10px 25px; /* Adjust button size for smaller screens */
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 2rem; /* Further adjustment for very small screens */
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+  }
+
+  .read-more-btn {
+    padding: 8px 20px;
+    font-size: 0.9rem;
+  }
+}

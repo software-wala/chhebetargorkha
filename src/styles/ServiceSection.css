@@ -1,0 +1,79 @@
+.service-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+  margin: 20px auto;
+  background-color: #ffffff; /* White background for a clean look */
+  border: 1px solid #e0e0e0; /* Light border for subtle separation */
+  border-radius: 12px; /* Rounded corners for a modern feel */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  max-width: 900px; /* Limit the width for better design balance */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animations */
+}
+
+.service-section:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.service-section h2 {
+  font-size: 2rem; /* Larger, bold heading */
+  color: #333; /* Dark color for better contrast */
+  margin-bottom: 15px;
+  font-weight: 700; /* Bold font for emphasis */
+}
+
+.service-section p {
+  font-size: 1.1rem; /* Comfortable paragraph size */
+  color: #555; /* Softer text color */
+  line-height: 1.6; /* Better spacing for readability */
+  margin-bottom: 20px;
+  max-width: 800px; /* Limit paragraph width for readability */
+}
+
+.service-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Rounded corners for consistency */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow to add focus */
+  margin-top: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+.service-section img:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+@media (min-width: 768px) {
+  .service-section {
+    flex-direction: row; /* Align items in a row for larger screens */
+    text-align: left;
+    padding: 50px 40px;
+  }
+
+  .service-section h2 {
+    font-size: 2.2rem; /* Slightly larger heading for larger screens */
+  }
+
+  .service-section p {
+    font-size: 1.2rem; /* Adjust text size for better readability */
+    margin-right: 20px;
+  }
+
+  .service-section img {
+    margin-left: 20px; /* Space between text and image */
+  }
+}
+
+@media (max-width: 768px) {
+  .service-section {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+
+  .service-section img {
+    margin-top: 20px; /* Space between image and text */
+  }
+}
