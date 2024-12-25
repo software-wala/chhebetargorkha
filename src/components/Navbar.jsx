@@ -53,17 +53,17 @@ const Navbar = () => {
 
           <div className="navbar-social">
             <a href="#" target="_blank">
-              <i className="fab fa-facebook-f"></i>
+            
             </a>
             <a href="#" target="_blank">
-              <i className="fab fa-twitter"></i>
+             
             </a>
             <a href="#" target="_blank">
-              <i className="fab fa-instagram"></i>
+            
             </a>
           </div>
 
-          <button className="get-quote-btn">Get A Quote</button>
+          <button className="get-quote-btn">Place Order</button>
         </div>
       </div>
     </nav>
