@@ -8,8 +8,9 @@ const Footer = () => {
         <div className="footer-about">
           <h4>About Us</h4>
           <p>
-            We are a dedicated team delivering quality construction services. 
-            Our mission is to build dreams into reality with excellence and precision.
+            We are a dedicated team delivering quality construction services.
+            Our mission is to build dreams into reality with excellence and
+            precision.
           </p>
         </div>
         <div className="footer-contact">
@@ -20,7 +21,7 @@ const Footer = () => {
           </div>
           <div className="contact-item">
             <i className="fa fa-envelope"></i>
-            <p>chhebatar@gmail.com</p>
+            <p>chhebetarcons@gmail.com</p>
           </div>
           <div className="contact-item">
             <i className="fa fa-map-marker"></i>
@@ -60,7 +61,7 @@ const Footer = () => {
         </div>
         <div className="footer-social">
           <h4>Follow Us</h4>
-          <a href="#" target="_blank">
+          <a href="https://www.facebook.com/profile.php?id=100063784820343" target="_blank">
             <i className="fa fa-facebook"></i>
           </a>
           <a href="#" target="_blank">

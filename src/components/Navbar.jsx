@@ -41,25 +41,28 @@ const Navbar = () => {
         {/* Right Section: Contact and Social */}
         <div className="navbar-right">
           <div className="navbar-contact">
-            <a href="tel:+342463">
-              <i className="fas fa-phone"></i>
-              <span>071-342463</span>
+            <a href="tel: 064-430014">
+              <i className="fa fa-phone"></i>
+              <span>064-430014</span>
             </a>
-            <a href="mailto:info@example.com">
-              <i className="fas fa-envelope"></i>
-              <span>infoChhebetar@gmail.com</span>
+            <a href="chhebetarcons@gmail.com">
+              <i className="fa fa-envelope"></i>
+              <span>chhebetarcons@gmail.com</span>
             </a>
           </div>
 
           <div className="navbar-social">
-            <a href="#" target="_blank">
-            
+            <a href="#" target="_blank"></a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100063784820343"
+              target="_blank"
+            >
+              {" "}
+              <i className="fa fa-facebook"></i>
             </a>
-            <a href="#" target="_blank">
-             
-            </a>
-            <a href="#" target="_blank">
-            
+            <a href="tel:985-6088514" target="_blank">
+              {" "}
+              <i className="fa fa-whatsapp"></i>
             </a>
           </div>
 
